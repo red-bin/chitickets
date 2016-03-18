@@ -1,4 +1,9 @@
 # chitickets
+
+The data dir was created with this guy below. To extract it all, just do a "zcat * > tickets.csv":
+
+split -l1000000 --filter='gzip > $FILE.gz' <(zcat A50462_TcktsIssdSince2009.txt.gz)
+
 Plotting Chicago parking tickets to find invalid tickets. 
 
 Data comes from FOIA:
