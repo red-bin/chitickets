@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+ruby "2.1.5"
+
+gem 'mysql2'
+gem 'activerecord'
+gem 'pry'
+gem 'dbf'
