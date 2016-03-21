@@ -1,6 +1,6 @@
 # Import And Geocode
 
-This is a Ruby library to import the parking ticket database and the chicago addresses database.
+This is a Ruby library to import the parking ticket CSV and the chicago addresses CSV into MySQL.
 
 Once imported, it will standardize the ticket addresses and look up their lat/longs in the address DB.
 
