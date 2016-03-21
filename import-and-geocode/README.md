@@ -8,4 +8,4 @@
 
 If you just want the data, a MySQL dump is available here:
 
-https://github.com/zensible/chitickets/tree/master/import-and-geocode
+https://s3.amazonaws.com/bak.homepc/chitickets_2016-03-21.sql.gz
