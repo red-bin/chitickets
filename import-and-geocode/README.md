@@ -6,8 +6,10 @@ Once imported, it will standardize the ticket addresses and look up their lat/lo
 
 Final stats:
 
+```
 17,806,818 ticket records
 7,953,378 successfully geocoded
+```
 
 If you just want the final data, a MySQL dump is available here:
 
@@ -26,6 +28,7 @@ Next:
 
 ```
 1. Set your mysql server settings in environment.rb
-2. ruby setup.rb  --  creates and populates 'tickets' and 'addresses' table, takes about 4 hours
-3. ruby geocode.rb  --  reads 'addresses' into memory, uses it to geocode the tickets' addresses. Takes about 12 hours.
+2. bundle install
+3. ruby setup.rb  --  creates and populates 'tickets' and 'addresses' table, takes about 4 hours
+4. ruby geocode.rb  --  reads 'addresses' into memory, uses it to geocode the tickets' addresses. Takes about 12 hours.
 ```
